@@ -1,0 +1,129 @@
+*
+{
+    margin: 0;
+    padding:0;
+}
+.wrapper
+{
+    background-color: beige;
+    display: flex;
+    left:80%;
+    top:10%;
+    transform: translate(80%,-20%);
+    position:absolute;
+}
+.wrapper a  
+{
+    width: 100px;
+    height: 80px;
+    text-decoration: none;
+    border: 5px solid rgb(233, 12, 12);
+    font-size: 20px;
+    text-align: center;
+    line-height: 80px;
+    margin: 10px;
+    color: #000;
+    font-family: sans-serif;
+    position: relative;
+
+}       
+ .wrapper a span
+ {
+        background:#e785df;
+        position: absolute;       
+        left: 0;
+        top: 0;
+        z-index: -1;
+ }
+ .to-right
+ { 
+    width: 0px;
+    height: 80px;
+ }
+ .wrapper a:hover .to-right
+ { 
+    width: 100px;
+    height: 80px;
+    transition: 0.8s;
+ }
+
+ .h1{
+     color: darkviolet;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     text-align: center;
+     font-size: 200%;
+    }
+
+header{
+    background-image:url(images/GYM.jpg);  
+    background-size: cover;  
+    background-repeat: round;
+    color: rgb(71,4,255);
+    margin: 20px;
+    height: 350px;
+}
+
+section{
+    background: lavender;
+    color: rgb(71, 4, 255);
+    text-align: justify;
+    margin: 20px;
+    padding: 10px;
+    height: 280px;
+}
+
+body{
+    background-image:url(images/myimage.JPG);  
+    background-size: cover;  
+    background-repeat: no-repeat;
+    color: rgb(4, 1, 14);
+    margin: 20px;
+    text-align: left;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+    margin-right: 20px;
+    color: beige;
+}
+
+footer{
+    margin: 20px;
+    background-color: black;
+    padding: 10px;
+    color: beige;
+}
+    
+table {
+    width: 600px;
+    height: 400px;
+}
+  
+table, td{
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+td{
+    padding: 10px;
+    font-size: larger;
+}
+
+tr:nth-child(even){
+    background-color: rgb(144, 144, 223);
+}
+
+tr:nth-child(odd){
+    background-color: rgb(125, 70, 214);
+}
+
+video{
+    margin-left: 1000px;
+    width: 300px;
+    height: 300px;
+}
